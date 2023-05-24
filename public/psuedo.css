@@ -1,0 +1,50 @@
+:root {
+    --hkrgrn: #5D7B6E;
+    --viridian: #688B74;
+    --cmbgrn: #729B79;
+    --feldgrau: #526B69;
+    --frngray:#D2D7DF;
+    --seashell: #FEF5EF;
+    --jet:#353535;
+    --mintcrm:#F7FFF7;
+    --azurecrm: #ECF8F8;
+    --lghtcyan: #DBFCFF;
+    --ivory: #F5FBEF;
+    --selectylw: #F7B801;
+    --honeydew: #E8F7EE;
+    --ashgray: #B8C4BB;
+    --cadet: #A0AAB2;
+    --carrot: #F19A3E;
+}
+
+body {
+    background-color: var(--honeydew);
+}
+
+.splash-container {
+    display: flex;
+    justify-content: center;
+}
+
+.splash {
+    width: 100vw;
+    margin: 2rem;
+    padding: 4rem;
+    background-color: var(--cmbgrn);
+}
+
+.splash-title {
+    font-size: 80px;
+}
+
+img {
+    height: 400px;
+    margin-right: 5rem;
+}
+
+.img-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
