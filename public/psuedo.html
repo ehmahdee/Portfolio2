@@ -8,7 +8,17 @@
     <link rel="stylesheet" href="psuedo.css">
 </head>
 <body>
-    
+
+    <!-- Navbar -->
+    <!-- <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a href="#resume">Experience</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav> -->
+
     <!-- splash element -->
     <div class="splash-container">
         <div class="splash">
@@ -21,6 +31,11 @@
 
     <!-- about me blurb -->
     <div class="about-me">
+        <div class="blurb-container">
+            <div class="blurb">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, laudantium ut labore, maiores deserunt eligendi neque consequatur unde pariatur harum, beatae expedita accusantium provident voluptatem assumenda ex iure atque voluptatibus.</p>
+            </div>
+        </div>
 
     </div>
 
@@ -31,13 +46,43 @@
 
     <!-- resume -->
     <div class="resume">
+        <span class=""></span>
+        <div class="resume-container">
+            
+        </div>
+    </div>
 
     <!-- contact -->
-    </div>
-
     <div class="contact">
+        <div class="contact-container">
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
 
+        </div>
     </div>
+
+    <footer>Thanks for stopping by 😎</footer>
 
 </body>
 </html>
