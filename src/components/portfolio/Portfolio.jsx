@@ -1,9 +1,9 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/'
-import IMG2 from '../../assets/'
-import IMG3 from '../../assets/'
-import IMG4 from '../../assets/'
+import IMG1 from '../../assets/5.1V-SetShips-thenGame.png'
+import IMG2 from '../../assets/shareit.png'
+import IMG3 from '../../assets/notetaker.png'
+import IMG4 from '../../assets/weatherapi.png'
 import IMG5 from '../../assets/codingquiz.png'
 import IMG6 from '../../assets/SpinWheel.png'
 
